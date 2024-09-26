@@ -1,0 +1,80 @@
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 0%;
+    
+}
+
+main {background-color: maroon;
+width: 70%;
+position: absolute;
+margin-top: 0;
+margin-bottom: 0;
+margin-right: 0;
+margin-left: 30%;
+height: 100%;}
+
+aside{background-image:url(vinho.jpg);
+    background-size: cover;
+    width: 30%;
+    position: fixed;
+    margin-top: 0;
+    margin-bottom: 0%;
+    margin-left: 0;
+    margin-right: 70%;
+    height: 100%;}
+
+img {width: 200px;
+    height: 200px;}
+
+img:hover {
+    transform: rotate(-10deg);
+}
+
+h1 {font-style: italic;
+    border: 2px dotted mistyrose;
+    color: whitesmoke;
+    font-variant: small-caps;
+    }
+
+h1:hover {
+        background-color: crimson;
+        color: lightpink;
+        border-color: lightpink;
+    }
+
+h3{color: whitesmoke;}
+
+h3.principal{ color: purple;
+    background-image:url(fundo.jpg);
+    opacity: 0.2;
+}
+
+h3.lateral{color: maroon;
+    background-image: url(fundo.jpg);}
+
+h3.lateral:hover{
+    color: indianred;
+
+}
+
+
+
+table {margin: center;}
+
+td {border: 3px dashed indianred;}
+
+ul{color: lightgray;
+    font-size: 10pt;
+    font-weight: bold;
+    line-height: 35px;
+    list-style-image: url(check.png);
+    text-align: left;}
+
+span {
+  text-decoration: underline;
+  color: gold;  
+}
+
+
+
+
